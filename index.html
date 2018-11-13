@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -71,10 +72,10 @@
                         <!-- .entry-meta-date -->
                     </div><!-- .entry-header -->
 
-   
+
                 </div><!-- .col-12 -->
             </div><!-- row -->
-<!-- 
+            <!-- 
             <div class="row">
                 <div class="col-12 ">
                     <div class="entry-footer">
@@ -93,22 +94,23 @@
                     <div class="lineup-artists-headline">
                         <div class="entry-title">
                             <p>Lalalalalala</p>
-                            <div class="countdown flex flex-wrap justify-content-between" style="color:#212121 !important;" data-date="2018/11/29">
+                            <div class="countdown flex flex-wrap justify-content-between" style="color:#212121 !important;"
+                                data-date="2018/11/29">
                                 <div class="countdown-holder">
                                     <div class="dday"></div>
                                     <label>Days</label>
                                 </div><!-- .countdown-holder -->
-        
+
                                 <div class="countdown-holder">
                                     <div class="dhour"></div>
                                     <label>Hours</label>
                                 </div><!-- .countdown-holder -->
-        
+
                                 <div class="countdown-holder">
                                     <div class="dmin"></div>
                                     <label>Minutes</label>
                                 </div><!-- .countdown-holder -->
-        
+
                                 <div class="countdown-holder">
                                     <div class="dsec"></div>
                                     <label>Seconds</label>
@@ -129,7 +131,9 @@
                                         </div><!-- entry-title -->
 
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim. </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                                volutpat. Ut wisi enim ad minim. </p>
                                         </div><!-- entry-content -->
 
                                         <div class="box-link">
@@ -147,11 +151,13 @@
 
                                     <div class="lineup-artists-description-container">
                                         <div class="entry-title">
-                                           Asanka Nissanka
+                                            Asanka Nissanka
                                         </div><!-- entry-title -->
 
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                                volutpat. Ut wisi enim ad minim.</p>
                                         </div><!-- entry-content -->
 
                                         <div class="box-link">
@@ -170,7 +176,7 @@
                 </div><!-- col-12 -->
             </div><!-- row -->
 
-         <!-- the complete lineup -->
+            <!-- the complete lineup -->
         </div><!-- container -->
 
         <div class="homepage-next-events">
@@ -354,7 +360,8 @@
 
     <footer class="site-footer">
         <div class="footer-cover-title flex justify-content-center align-items-center">
-        </div> <!--.site-footer -->
+        </div>
+        <!--.site-footer -->
 
         <div class="footer-content-wrapper">
             <div class="container">
@@ -370,11 +377,14 @@
 
                         <div class="copyright-info">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Powered with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://getshoutout.com" target="_blank">ShoutOUT Labs</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | Powered with <i class="fa fa-heart" aria-hidden="true"></i>
+                            by <a href="https://getshoutout.com" target="_blank">ShoutOUT Labs</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div><!-- copyright-info -->
 
-                  <div class="footer-social">
+                        <div class="footer-social">
                             <ul class="flex justify-content-center align-items-center">
                                 <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -383,13 +393,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <li><a href="#"><i class="fab fa-behance"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
-                        </div>       <!-- footer-social -->
+                        </div> <!-- footer-social -->
                     </div><!-- col -->
                 </div><!-- row -->
             </div><!-- container -->
         </div><!-- footer-content-wrapper -->
     </footer><!-- site-footer -->
-
+    <script>
+        $(window).scroll(function () {
+            var winScrollTop = $(window).scrollTop();
+            var winHeight = $(window).height();
+            var floaterHeight = $('#floater').outerHeight(true);
+            var fromBottom = 20;
+            var top = winScrollTop + winHeight - floaterHeight - fromBottom;
+            $('#floater').css({
+                'top': top + 'px'
+            });
+        });
+    </script>
     <script type='text/javascript' src='js/jquery.js'></script>
     <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
@@ -399,4 +420,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/custom.js'></script>
 </body>
+
 </html>
