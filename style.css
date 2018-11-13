@@ -1954,28 +1954,29 @@ div.sticky {
     position: -webkit-fixed;
     position: sticky;
     top: 0;
-    background-color: rgb(255, 252, 46);
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
     color: #212121;
     font-weight: 800;
     font-size: 25px;
     z-index:1000;
     margin:0px auto;
-    box-shadow: 2px 3px 20px #2121215b;
-    /* border-radius: 50px 50px 50px 50px; */
 }
 div.sticky a {
-    color: #212121;
+    color: #fff;
  
 }
 div.sticky a:hover {
     text-decoration: none;
-    color: #212121;
+    color: #fff;
     font-size:28px;
     transition-duration: 300ms;
 }
 
-.register-button{
-    margin-top: 10px;
+.register-button {
+    padding: 20px 40px 20px 40px;
+    background-color: #11A5DE;
+    box-shadow: 2px 3px 20px #2121215b;
+    border-radius: 50px;
 }
 /* ----------------Floater---------------- */
